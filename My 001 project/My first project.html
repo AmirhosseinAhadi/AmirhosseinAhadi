@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Omifood food Hreo section</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        border-radius: center;
+      }
+      html {
+        font-family: "Rubik", sans-serif;
+        color: #444;
+      }
+
+      .container {
+        margin: 0 auto;
+        width: 1200px;
+      }
+
+      header {
+        /*background-color: orangered;*/
+        height: 100vh;
+        position: relative;
+
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(0, 0, 0, 0.6)
+          ),
+          url(hero.jpg);
+        background-size: cover;
+        color: #fff;
+      }
+      nav {
+        font-size: 20px;
+        font-weight: bold;
+        display: flex;
+        justify-content: space-between;
+        padding-top: 32px;
+        /*background-image: linear-gradient(red, blue);*/
+        /*background-color: green;*/
+      }
+
+      .header--container {
+        width: 1200px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+
+        /*background-color: violet;*/
+
+        text-align: center;
+      }
+
+      .header--container-inner {
+        width: 50%;
+        /*background-color: yellowgreen;*/
+      }
+      h1 {
+        font-weight: bold;
+        font-size: 50px;
+        margin-bottom: 30px;
+      }
+
+      p {
+        font-size: 20px;
+        line-height: 1.6;
+        margin-bottom: 48px;
+      }
+
+      .btn--head:link,
+      .btn--head:visited {
+        font-size: 20px;
+        font-weight: 600;
+        background-color: #e67e22;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        padding: 16px 32px;
+        border-radius: 9px;
+      }
+
+      h2 {
+        font-size: 44px;
+        margin-bottom: 48px;
+      }
+
+      section {
+        padding: 96px 0;
+        background-color: #f7f7f7;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <div>LOGO</div>
+        <div>NAVIGATION</div>
+      </nav>
+
+      <div class="header--container">
+        <div class="header--container-inner">
+          <h1>A Healty meal delivered to your door, every single day</h1>
+          <p>
+            The smart 365-days-per-year food subscription that will make you eat
+            Healty algain. Tailored to your personal tastes and nutritional
+            needs
+          </p>
+          <a href="#" class="btn--head"> Start eating well</a>
+        </div>
+      </div>
+    </header>
+
+    <section>
+      <div class="container">
+        <h2>Some random heading by Amir Ahadi</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia ad
+          suscipit corrupti. Perspiciatis sequi nobis facere totam. Excepturi at
+          explicabo facere aliquam. Minus, quia quod a veritatis non dolorem et.
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos
+          quibusdam exercitationem consequuntur aliquid corporis tempora
+          asperiores atque tempore unde repellat accusamus, provident, voluptas
+          harum? Accusantium ab esse nam porro perspiciatis!
+        </p>
+      </div>
+    </section>
+    <style>
+      /*
+      SPACING SYSTEM (px)
+      2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+      FONT SIZE SYSTEM (px)
+      10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+      */
+      /*
+      MAIN COLOR: #087f5b
+      GREY COLOR: #343a40
+      */
+    .carousel {
+      width: 800px;
+      margin: 100px auto;
+      background-color: #087f5b;
+      /* padding: 32px; */
+      /* padding-left: 86px; */
+      /* padding-right: 48px; */
+      padding: 26px 42px 26px 80px;
+
+      border-radius: 8px;
+      position: relative;
+
+      display: flex;
+      align-items: center;
+      gap: 86px;
+    }
+
+    img {
+      height: 200px;
+      border-radius: 8px;
+      transform: scale(1.5);
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.25);
+    }
+
+    .testimonial-text {
+      font-size: 18px;
+      font-weight: 500;
+      line-height: 1.5;
+      margin-bottom: 32px;
+      color: #e6fcf5;
+    }
+
+    .testimonial-author {
+      font-size: 14px;
+      margin-bottom: 4px;
+      color: #c3fae8;
+    }
+
+    .testimonial-job {
+      font-size: 12px;
+      color: #c3fae8;
+    }
+
+    /* CONTROLS */
+    .btn {
+      background-color: #fff;
+      border: none;
+      height: 40px;
+      width: 40px;
+      border-radius: 50%;
+      position: absolute;
+      box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+      cursor: pointer;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .btn--left {
+      /* In relation to PARENTE ELEMENT */
+      left: 0;
+      top: 50%;
+
+      /* In relation to ELEMENT ITSELF */
+      transform: translate(-50%, -50%);
+    }
+
+    .btn--right {
+      right: 0;
+      top: 50%;
+
+      transform: translate(50%, -50%);
+    }
+
+    .btn-icon {
+      height: 24px;
+      width: 24px;
+      stroke: #087f5b;
+    }
+    .dots {
+      position: absolute;
+      left: 50%;
+      bottom: 0;
+      transform: translate(-50%, 32px);
+
+      display: flex;
+      gap: 12px;
+    }
+
+    .dot {
+      height: 12px;
+      width: 12px;
+      background-color: #fff;
+      border: 2px solid #087f5b;
+      border-radius: 50%;
+      cursor: pointer;
+    }
+
+    .dot--fill {
+      background-color: #087f5b;
+    }
+  </style>
+</head>
+<body>
+  <div class="carousel">
+    <img src="maria.jpg" alt="Maria de Almeida" />
+    <blockquote class="testimonial">
+      <p class="testimonial-text">
+        "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia
+        nesciunt aliquid ex atque quibusdam. Rerum officia unde suscipit quo
+        sunt hic illo fugit."
+      </p>
+      <p class="testimonial-author">Maria de Almeida</p>
+      <p class="testimonial-job">Senior Product Manager at EDP Comercial</p>
+    </blockquote>
+
+    <button class="btn btn--left">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="btn-icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M15 19l-7-7 7-7"
+        />
+      </svg>
+    </button>
+    <button class="btn btn--right">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="btn-icon"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M9 5l7 7-7 7"
+        />
+      </svg>
+    </button>
+    <div class="dots">
+      <button class="dot dot--fill">&nbsp;</button>
+      <button class="dot">&nbsp;</button>
+      <button class="dot">&nbsp;</button>
+      <button class="dot">&nbsp;</button>
+    </div>
+  </div>
+  </body>
+</html>
